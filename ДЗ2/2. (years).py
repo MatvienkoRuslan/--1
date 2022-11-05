@@ -1,5 +1,5 @@
 years = int (input ("Введіть рік:"))
 if (years % 4 == 0 and years % 100 != 0) or years % 400 == 0:
-         print ('YES')
+         print ('yes')
 else:
-         print ('NO')
+         print ('no')
