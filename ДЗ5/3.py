@@ -3,7 +3,7 @@ flag = True;
 for i in range(0, len(st) // 2):
     if (st[i] != st[len(st) - i - 1]):
         flag = False;
-        break;
+        break
 
 if (flag):
     print("Ні");
